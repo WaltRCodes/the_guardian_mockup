@@ -36,15 +36,17 @@ export default class App extends Component {
   render() {
     return (
       <div id="grid">
-        <nav id="navOne"></nav>
+        <div id="sideBar"></div>
+        <div id="navOne"></div>
         <nav id="navTwo"></nav>
+        <img id="logo"/>
         <div id="mainArticle"></div>
-        <div class="picArticle"></div>
-        <div class="picArticle"></div>
-        <div class="picArticle"></div>
-        <div class="nopicArticle"></div>
-        <div class="nopicArticle"></div>
-        <div class="nopicArticle"></div>
+        <div className="picArticle"></div>
+        <div className="picArticle"></div>
+        <div className="picArticle"></div>
+        <div className="nopicArticle"></div>
+        <div className="nopicArticle"></div>
+        <div className="nopicArticle"></div>
       </div>
     )
   }
