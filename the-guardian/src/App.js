@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {env} from './components/env'
 import './App.css';
 
 export default class App extends Component {
@@ -13,7 +13,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://content.guardianapis.com/search?api-key=")
+    fetch("https://content.guardianapis.com/search?api-key="+env.key)
       .then(response => response.json()) 
       .then(
         result => {
