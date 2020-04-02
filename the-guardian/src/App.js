@@ -13,7 +13,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://content.guardianapis.com/search?api-key=3255c9db-8a37-4c01-8f99-25c1b756ed27")
+    fetch("https://content.guardianapis.com/search?api-key=")
       .then(response => response.json()) 
       .then(
         result => {
