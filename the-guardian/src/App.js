@@ -36,7 +36,15 @@ export default class App extends Component {
   render() {
     return (
       <div id="grid">
-        
+        <nav id="navOne"></nav>
+        <nav id="navTwo"></nav>
+        <div id="mainArticle"></div>
+        <div class="picArticle"></div>
+        <div class="picArticle"></div>
+        <div class="picArticle"></div>
+        <div class="nopicArticle"></div>
+        <div class="nopicArticle"></div>
+        <div class="nopicArticle"></div>
       </div>
     )
   }
