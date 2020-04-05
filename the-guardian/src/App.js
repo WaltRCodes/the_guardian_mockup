@@ -30,6 +30,8 @@ export default class App extends Component {
           console.log(result.articles[0].description);
           console.log(result.articles[0].urlToImage);
           //console.log(result.articles[0].content);
+          let newsArray=[];
+          let newNewsObject;
           this.setState({
             isLoaded: true,
             items:result.results
