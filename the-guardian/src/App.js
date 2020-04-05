@@ -32,6 +32,9 @@ export default class App extends Component {
           //console.log(result.articles[0].content);
           let newsArray=[];
           let newNewsObject;
+          for(let i =0;i<12;i++){
+
+          }
           this.setState({
             isLoaded: true,
             items:result.results
