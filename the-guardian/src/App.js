@@ -8,7 +8,11 @@ export default class App extends Component {
 
     this.state = {
       isLoaded: false,
-      data: []
+      data: [{
+        title:'',
+        description:'',
+        urlToImage: ''
+      }]
     }
   }
 
