@@ -21,13 +21,17 @@ export default class App extends Component {
           console.log(result);
           console.log(result.articles);
           //console.log(result.response.articles);
-
+          //twelve articels
+          console.log(result.articles[0].title);
+          console.log(result.articles[0].description);
+          console.log(result.articles[0].urlToImage);
+          //console.log(result.articles[0].content);
           this.setState({
             isLoaded: true,
             items:result.results
           })
 
-          console.log("state is updated",this.state.items)
+          //console.log("state is updated",this.state.items)
         }
       ).catch(e => console.log("there's a error", e))
   }
