@@ -5,14 +5,16 @@ import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props);
-
+    let array = new Array(12);
+    NewsObject = {
+      title:'',
+      description:'',
+      urlToImage: ''
+    };
+    array.fill(NewsObject);
     this.state = {
       isLoaded: false,
-      data: [{
-        title:'',
-        description:'',
-        urlToImage: ''
-      }]
+      data: array
     }
   }
 
