@@ -33,7 +33,12 @@ export default class App extends Component {
           let newsArray=[];
           let newNewsObject;
           for(let i =0;i<12;i++){
-
+            newNewsObject = {
+              title:result.articles[i].title,
+              description:result.articles[i].description,
+              urlToImage: result.articles[i].urlToImage
+            };
+            newsArray.push(newNewsObject);
           }
           this.setState({
             isLoaded: true,
