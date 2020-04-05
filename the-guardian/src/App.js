@@ -13,14 +13,14 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://content.guardianapis.com/search?api-key="+env.key)
+    fetch("http://newsapi.org/v2/top-headlines?country=us&apiKey="+env.key)
       .then(response => response.json()) 
       .then(
         result => {
 
           console.log(result);
-          console.log(result.response);
-          console.log(result.response.results);
+          console.log(result.articles);
+          //console.log(result.response.articles);
 
           this.setState({
             isLoaded: true,
