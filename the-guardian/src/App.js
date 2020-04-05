@@ -6,7 +6,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     let array = new Array(12);
-    NewsObject = {
+    let NewsObject = {
       title:'',
       description:'',
       urlToImage: ''
@@ -39,12 +39,13 @@ export default class App extends Component {
               title:result.articles[i].title,
               description:result.articles[i].description,
               urlToImage: result.articles[i].urlToImage
+              //call image using the info here: https://stackoverflow.com/questions/37644265/correct-path-for-img-on-react-js
             };
             newsArray.push(newNewsObject);
           }
           this.setState({
             isLoaded: true,
-            items:result.results
+            data: newsArray
           })
 
           //console.log("state is updated",this.state.items)
@@ -59,8 +60,16 @@ export default class App extends Component {
         <div id="sideBar"></div>
         <div id="navOne"></div>
         <nav id="navTwo"></nav>
-        <img id="logo"/>
-        <div id="mainArticle"></div>
+        <div id="logoSection">
+          <img id="logo"/>
+        </div>
+        <div id="mainArticle">
+          <ul>
+            <li>{this.state.data[0].title}</li>
+            <li>{this.state.data[0].description}</li>
+            <li><img src ={this.state.data[0].urlToImage} /></li>
+          </ul>
+        </div>
         <div className="picArticle"></div>
         <div className="picArticle"></div>
         <div className="picArticle"></div>
