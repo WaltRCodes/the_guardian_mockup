@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {env} from './components/env'
+import {env} from './components/env';
+import cloudy from'./images/cloudy.png';
+import rainy from'./images/rainy.png';
 import './App.css';
 
 export default class App extends Component {
