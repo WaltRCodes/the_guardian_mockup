@@ -70,13 +70,16 @@ li{
 }
 
 #navOne{
-  background-color: grey;
+  background-color: #092164;
   grid-row-start: 1;
   grid-row: span 2;
   grid-column-start: 1;
   grid-column: span 9;
+  color:lightgrey;
 }
-
+#navOne h1{
+  color:yellow;
+}
 #navOne  button{
   background-color: yellow;
   border-radius: 25px;
@@ -86,7 +89,7 @@ li{
 }
 
 #navTwo{
-  background-color: black;
+  background-color: #092164;
   grid-row-start: 2;
   grid-row: span 2;
   grid-column-start: 1;
