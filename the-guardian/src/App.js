@@ -57,7 +57,33 @@ export default class App extends Component {
   render() {
     return (
       <div id="grid">
-        <div id="sideBar"></div>
+        <div id="sideBar">
+        <div className="column">
+
+          <div className="row">
+            <div className="column">
+              <p>18:00</p>
+              <img />
+              <p>35 F</p>
+            </div>
+            <div className="column">
+              <p>21:00</p>
+              <img />
+              <p>37 F</p>
+            </div>
+            <div className="column">
+              <p>0:00</p>
+              <img />
+              <p>34 F</p>
+            </div>
+            <div className="column">
+              <p>03:00</p>
+              <img />
+              <p>33 F</p>
+            </div>
+          </div>
+        </div>
+        </div>
         <div id="navOne"></div>
         <nav id="navTwo"></nav>
         <div id="logoSection">
