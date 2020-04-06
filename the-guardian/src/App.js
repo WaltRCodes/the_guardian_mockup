@@ -64,11 +64,16 @@ export default class App extends Component {
           <img id="logo"/>
         </div>
         <div id="mainArticle">
-          <ul>
-            <li>{this.state.data[0].title}</li>
-            <li>{this.state.data[0].description}</li>
-          </ul>
-          <img src ={this.state.data[0].urlToImage} height="200px"/>
+          <div className="row">
+            <ul>
+              <li>{this.state.data[0].title}</li>
+              <li>{this.state.data[0].description}</li>
+            </ul>
+            <img src ={this.state.data[0].urlToImage} height="300px"/>
+          </div>
+          <div className="row">
+            
+          </div>
         </div>
         
         <div className="picArticle">

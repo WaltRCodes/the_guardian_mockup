@@ -26,17 +26,21 @@ li{
   grid-column-start: 3;
   grid-column: span 7;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom:10px;
   padding-left:10px;
+  width:100%;
+  height:100%
 }
-#mainArticle> ul{
-  padding-top: 10px;
-  font-size: larger;
+.row{
+  display:flex;
+  flex-direction: row;
+}
+#mainArticle .row> ul{
+  font-size: medium;
   font-weight: bold;
 }
-#mainArticle>ul> li{
-  padding-top:5px;
+#mainArticle .row>ul> li{
   padding-bottom:5px;
   margin-top:5px;
   margin-bottom:5px;
