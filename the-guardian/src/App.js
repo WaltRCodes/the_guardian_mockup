@@ -5,7 +5,7 @@ import './App.css';
 export default class App extends Component {
   constructor(props) {
     super(props);
-    let array = new Array(12);
+    let array = new Array(14);
     let NewsObject = {
       title:'',
       description:'',
@@ -34,7 +34,7 @@ export default class App extends Component {
           //console.log(result.articles[0].content);
           let newsArray=[];
           let newNewsObject;
-          for(let i =0;i<12;i++){
+          for(let i =0;i<14;i++){
             newNewsObject = {
               title:result.articles[i].title,
               description:result.articles[i].description,
