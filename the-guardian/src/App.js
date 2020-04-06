@@ -82,8 +82,16 @@ export default class App extends Component {
           <p>{this.state.data[3].title}</p>
           <p>{this.state.data[4].title}</p>
         </div>
-        <div className="nopicArticle"></div>
-        <div className="nopicArticle"></div>
+        <div className="nopicArticle">
+          <p>{this.state.data[5].title}</p>
+          <p>{this.state.data[6].title}</p>
+          <p>{this.state.data[7].title}</p>
+        </div>
+        <div className="nopicArticle">
+        <p>{this.state.data[8].title}</p>
+          <p>{this.state.data[9].title}</p>
+          <p>{this.state.data[10].title}</p>
+        </div>
       </div>
     )
   }

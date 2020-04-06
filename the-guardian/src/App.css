@@ -66,3 +66,9 @@ li{
   grid-column: span 3;
   grid-row: span 2;
 }
+
+.Article{
+  background-color: navy;
+  grid-column: span 4;
+  grid-row: span 2;
+}
