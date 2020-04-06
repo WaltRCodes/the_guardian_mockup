@@ -83,6 +83,7 @@ export default class App extends Component {
           <p>{this.state.data[4].title}</p>
         </div>
         <div className="nopicArticle">
+          <img src ={this.state.data[5].urlToImage} width="100%"/>
           <p>{this.state.data[5].title}</p>
           <p>{this.state.data[6].title}</p>
           <p>{this.state.data[7].title}</p>
