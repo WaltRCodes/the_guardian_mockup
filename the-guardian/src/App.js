@@ -88,8 +88,10 @@ export default class App extends Component {
         <div className="Article">
           <img src ={this.state.data[2].urlToImage} width="100%"/>
           <p>{this.state.data[2].title}</p>
-          <p>{this.state.data[3].title}</p>
-          <p>{this.state.data[4].title}</p>
+          <br />
+          <br />
+          <br />
+          <p>{this.state.data[2].description}</p>
         </div>
         <div className="nopicArticle">
           <img src ={this.state.data[5].urlToImage} width="100%" />
@@ -101,6 +103,8 @@ export default class App extends Component {
         <p>{this.state.data[8].title}</p>
           <p>{this.state.data[9].title}</p>
           <p>{this.state.data[10].title}</p>
+          <p>{this.state.data[3].title}</p>
+          <p>{this.state.data[4].title}</p>
         </div>
       </div>
     )
