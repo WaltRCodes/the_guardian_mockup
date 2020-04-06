@@ -32,6 +32,14 @@ li{
 }
 #mainArticle> ul{
   padding-top: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+#mainArticle>ul> li{
+  padding-top:5px;
+  padding-bottom:5px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 #logoSection{
   background-color: grey;
