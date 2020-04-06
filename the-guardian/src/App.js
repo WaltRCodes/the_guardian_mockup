@@ -104,6 +104,7 @@ export default class App extends Component {
             <li>Sport</li>
             <li>Culture</li>
             <li>Lifestyle</li>
+            More
           </ul>
         </nav>
         <div id="logoSection">

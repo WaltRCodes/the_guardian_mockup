@@ -84,6 +84,19 @@ li{
   grid-column-start: 1;
   grid-column: span 12;
   color:white;
+  width:100%;
+}
+#navTwo>ul{
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  font-size: larger;
+  text-align: center;
+  font-size: larger;
+  margin-top:50px;
+}
+#navTwo >ul>li{
+  font-weight: bold;
 }
 .picArticle{
   grid-column: span 3;
