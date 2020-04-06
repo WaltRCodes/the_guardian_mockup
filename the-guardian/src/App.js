@@ -62,25 +62,34 @@ export default class App extends Component {
         <div id="sideBar">
         <div className="column">
 
+            <div className="row">
+              
+              <img src={cloudy} width="40px"/>
+              <div className="column">
+                Now
+                35 F
+              </div>
+              
+            </div>
           <div className="row">
             <div className="column">
               18:00
-              <img />
+              <img src={cloudy} width="40px"/>
               35 F
             </div>
             <div className="column">
               21:00
-              <img />
+              <img src={cloudy} width="40px"/>
               37 F
             </div>
             <div className="column">
               0:00
-              <img />
+              <img src={cloudy} width="40px"/>
               34 F
             </div>
             <div className="column">
               03:00
-              <img />
+              <img src={rainy} width="40px"/>
               33 F
             </div>
           </div>
