@@ -70,10 +70,18 @@ export default class App extends Component {
           </ul>
           <img src ={this.state.data[0].urlToImage} height="200px"/>
         </div>
-        <div className="picArticle"></div>
-        <div className="picArticle"></div>
-        <div className="picArticle"></div>
-        <div className="nopicArticle"></div>
+        
+        <div className="picArticle">
+          <img src ={this.state.data[1].urlToImage} width="100%"/>
+          <p>{this.state.data[1].title}</p>
+          <p>{this.state.data[1].description}</p>
+        </div>
+        <div className="nopicArticle">
+          <img src ={this.state.data[2].urlToImage} width="100%"/>
+          <p>{this.state.data[2].title}</p>
+          <p>{this.state.data[3].title}</p>
+          <p>{this.state.data[4].title}</p>
+        </div>
         <div className="nopicArticle"></div>
         <div className="nopicArticle"></div>
       </div>
