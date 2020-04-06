@@ -30,11 +30,19 @@ li{
   padding-bottom:10px;
   padding-left:10px;
   width:100%;
-  height:100%
+  height:100%;
+  color: lightgrey;
 }
 #underPic{
   display:flex;
   flex-direction: row;
+}
+#underPic > li{
+  padding:5px;
+  margin:5px;
+  color: lightgrey;
+  border: 2px lightgrey;
+  border-style: solid none none none;
 }
 .row{
   display:flex;
