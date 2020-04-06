@@ -62,24 +62,24 @@ export default class App extends Component {
 
           <div className="row">
             <div className="column">
-              <p>18:00</p>
+              18:00
               <img />
-              <p>35 F</p>
+              35 F
             </div>
             <div className="column">
-              <p>21:00</p>
+              21:00
               <img />
-              <p>37 F</p>
+              37 F
             </div>
             <div className="column">
-              <p>0:00</p>
+              0:00
               <img />
-              <p>34 F</p>
+              34 F
             </div>
             <div className="column">
-              <p>03:00</p>
+              03:00
               <img />
-              <p>33 F</p>
+              33 F
             </div>
           </div>
         </div>
