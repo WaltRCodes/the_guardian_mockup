@@ -48,6 +48,10 @@ li{
   display:flex;
   flex-direction: row;
 }
+.column{
+  display:flex;
+  flex-direction: column;
+}
 #mainArticle .row> ul{
   font-size: medium;
   font-weight: bold;
