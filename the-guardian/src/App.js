@@ -104,7 +104,18 @@ export default class App extends Component {
           </div>
         </div>
         </div>
-        <div id="navOne"></div>
+        <div id="navOne">
+          <button>
+            <svg width="30" height="30" viewBox="0 0 30 30" class="inline-arrow-right__svg inline-icon__svg">
+              <path d="M22.8 14.6L15.2 7l-.7.7 5.5 6.6H6v1.5h14l-5.5 6.6.7.7 7.6-7.6v-.9"></path>
+            </svg>
+          </button>
+          <button>
+            <svg width="30" height="30" viewBox="0 0 30 30" class="inline-arrow-right__svg inline-icon__svg">
+              <path d="M22.8 14.6L15.2 7l-.7.7 5.5 6.6H6v1.5h14l-5.5 6.6.7.7 7.6-7.6v-.9"></path>
+            </svg>
+          </button>
+        </div>
         <nav id="navTwo">
           <ul className="row" id="white">
             <li>News</li>
