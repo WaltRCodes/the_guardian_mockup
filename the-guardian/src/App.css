@@ -83,6 +83,7 @@ li{
   grid-row: span 2;
   grid-column-start: 1;
   grid-column: span 12;
+  color:white;
 }
 .picArticle{
   grid-column: span 3;
@@ -99,6 +100,9 @@ li{
   background-color: navy;
   grid-column: span 4;
   grid-row: span 2;
+}
+#redDate{
+color:red;
 }
 
 p{

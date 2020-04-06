@@ -61,15 +61,16 @@ export default class App extends Component {
       <div id="grid">
         <div id="sideBar">
         <div className="column">
-
+          <h1>Headlines</h1>
+          <h3>Monday</h3>
+          <h3 id="redDate">16 December 2019</h3>
+          <input type="search" value="Bronx"/>
             <div className="row">
-              
               <img src={cloudy} width="40px"/>
               <div className="column">
                 Now
                 35 F
               </div>
-              
             </div>
           <div className="row">
             <div className="column">
@@ -96,7 +97,15 @@ export default class App extends Component {
         </div>
         </div>
         <div id="navOne"></div>
-        <nav id="navTwo"></nav>
+        <nav id="navTwo">
+          <ul className="row" id="white">
+            <li>News</li>
+            <li>Opinion</li>
+            <li>Sport</li>
+            <li>Culture</li>
+            <li>Lifestyle</li>
+          </ul>
+        </nav>
         <div id="logoSection">
           <img id="logo"/>
         </div>
