@@ -77,6 +77,14 @@ li{
   grid-column: span 9;
 }
 
+#navOne  button{
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+
 #navTwo{
   background-color: black;
   grid-row-start: 2;
