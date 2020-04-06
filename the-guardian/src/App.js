@@ -72,7 +72,11 @@ export default class App extends Component {
             <img src ={this.state.data[0].urlToImage} height="300px"/>
           </div>
           <div className="row">
-            
+            <ul id="underPic">
+              <li>{this.state.data[11].title}</li>
+              <li>{this.state.data[12].title}</li>
+              <li>{this.state.data[13].title}</li>
+            </ul>
           </div>
         </div>
         
